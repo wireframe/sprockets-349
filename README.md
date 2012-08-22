@@ -13,11 +13,11 @@ Attempting to use sprockets dependency tree to prevent downstream JS files from 
 //= require foo
 ```
 
-== Expected Result
+## Expected Result
 
 The extension.js should *not* include `foo.js` since it is already provided by the dependent asset
 
-== Steps to Reproduce:
+## Steps to Reproduce:
 
 * Startup rails app `rails s`
 * load application.js asset: http://localhost:3000/assets/application.js
