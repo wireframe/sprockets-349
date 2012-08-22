@@ -1,1 +1,2 @@
-// this file should only exist in the main application bundle
+// foo.js
+// this file should only exist in the main application bundle!
