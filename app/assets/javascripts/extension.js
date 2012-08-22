@@ -1,0 +1,2 @@
+//= stub application
+//= require foo
